@@ -1,0 +1,20 @@
+create user: 1 ABC
+create user: 2 XYZ
+
+create user: 3 DEF
+create user: 4 UVW
+
+
+create event: 1 discussion 05-05-2018 00:00:00 05-05-2018 00:00:00
+location: blr
+users: 2 3
+create event: 3 discussion 06-05-2018 00:00:00 05-05-2018 00:00:00
+location: blr
+users: 2
+create event: 2 birthday 04-05-2018 00:00:00 05-05-2018 00:00:00
+
+create event: 2 birthday 04-05-2017 00:00:00 05-05-2018 00:00:00
+
+review event: 2
+
+show calendar: 2
